@@ -25,10 +25,6 @@ To run this application on **GitHub**, **Streamlit Community Cloud**, or any loc
 | **`requirements.txt`** | Lightweight Python dependencies for Streamlit serving | ~100 B | **MANDATORY** |
 | **`model_pipeline.joblib`** | Pre-trained Scikit-Learn salary estimation pipeline | ~126 KB | **MANDATORY** |
 | **`rec_engine.joblib`** | Pre-computed TF-IDF matrix & candidate dataset for recommendations | ~7.9 MB | **MANDATORY** |
-| **`start_app.bat`** | Windows one-click batch startup script | ~200 B | Recommended |
-| **`start_app.ps1`** | PowerShell startup script | ~250 B | Recommended |
-| **`Dockerfile`** | Containerization image specification | ~800 B | Recommended |
-| **`docker-compose.yml`** | Multi-container production deployment | ~350 B | Recommended |
 | **`project_8.ipynb`** | Full end-to-end data science Jupyter notebook (EDA, Deep Learning, ML) | ~3.5 MB | Project Artifact |
 | **`Job_Market_Analytics_Executive_Presentation.pptx`** | 24-slide executive client presentation | ~2.4 MB | Project Artifact |
 
@@ -52,7 +48,5 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py --server.port https://project8-gbz97mrgp7vzfkzb6zyhij.streamlit.app/
 ```
-Or simply double-click **`start_app.bat`** on Windows!
-
 Open your browser at **`https://project8-gbz97mrgp7vzfkzb6zyhij.streamlit.app/`**.
 
